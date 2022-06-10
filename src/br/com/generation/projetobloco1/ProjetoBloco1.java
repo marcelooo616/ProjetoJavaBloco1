@@ -40,10 +40,10 @@ public static void main(String[] args) {
            System.out.println("3 - Citroen ");
            System.out.println("4 - Ford ");
            System.out.println("5 - Peugeot ");
-           System.out.println("6 - Subaru ");
-           System.out.println("7 - Volvo ");
-           System.out.println("8 - Nissan ");
-           System.out.println("9 - Renault ");
+           System.out.println("6 - Nissan ");
+           System.out.println("7 - Renault ");
+           System.out.println("8 - Chevrolet ");
+           System.out.println("9 - Volkswagen ");
           // System.out.println("10 - Jeep ");
            //System.out.println("1 - Toyota ");
            System.out.println();         
@@ -120,8 +120,8 @@ public static void main(String[] args) {
         	 
          }
         
-        	    
-    	   
+         System.out.println();	    
+    	 Solucoes.listadesolucoes();  
            
         
             	

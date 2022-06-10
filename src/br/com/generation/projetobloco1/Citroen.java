@@ -8,6 +8,9 @@ public class Citroen {
 	static int opcao, opcao1 ;
 	static double  Co2 = 7773;
 	static double resultado;
+	
+	
+	
 	//criando os modulos
 public static void listamodelos() {
 		
@@ -43,7 +46,7 @@ public static void opcao3() {
 	resultado = litrokmcitroen[2] * Co2 ;
     
        System.out.println();
-	   System.out.println("A cada 9km rodados o Citroen C3 gasta "+litrokmcitroen[0] );
+	   System.out.println("A cada 9km rodados o Citroen C3 gasta Litros "+litrokmcitroen[0] );
 	   System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
 }
 
