@@ -11,7 +11,7 @@ public class Ford {
 	static double[] litrokmford = { 13.4, 8.1, 10.3 };
 	// declarando as opções
 	static int opcao, opcao1;
-	static double Co2 = 7773;
+	static double Co2 = 157;
 	static double resultado;
 
 	// criando os modulos

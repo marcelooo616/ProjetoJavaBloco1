@@ -1,9 +1,9 @@
 package br.com.generation.projetobloco1;
 
 public class Solucoes {
-	
+
 	public static void listadesolucoes() {
-		
+
 		System.out.println("!!O que voce fazer para compensa toda essa emissão");
 		System.out.println();
 		System.out.println("- Deixar os produtos de origem animal de fora do cardapio por um dia!!");
@@ -13,8 +13,7 @@ public class Solucoes {
 		System.out.println("- Fazer o plantio de arvores");
 		System.out.println("- Incentivo a veículos menos poluentes");
 		System.out.println("- Utilize ecobags");
-		
+
 	}
-	
 
 }

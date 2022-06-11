@@ -10,7 +10,7 @@ public class Honda {
 	static double[] litrokmhonda = { 10.6, 9, 12.3 };
 
 	static int opcao, opcao1;
-	static double Co2 = 7773;
+	static double Co2 = 157;
 	static double resultado;
 
 	public static void listamodelos() {

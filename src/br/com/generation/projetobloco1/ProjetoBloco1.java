@@ -22,7 +22,7 @@ public class ProjetoBloco1 {
 		// String [] honda = {"Civic","Odyssey","Fit"};
 		// double [] litrokmhonda = {10.6,9,12.3};
 
-		int opcaofiat, opcaohonda, opcao, opcao1;
+		int opcaofiat,opcao, opcao1;
 		double Co2 = 7773;
 		double resultado;
 

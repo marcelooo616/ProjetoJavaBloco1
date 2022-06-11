@@ -11,7 +11,7 @@ public class Renault {
 	static double[] litrokmrenault = { 14.9, 12.5, 11.1 };
 
 	static int opcao1 = 0;
-	static double Co2 = 7773;
+	static double Co2 = 157;
 	static double resultado;
 
 	public static void listamodelos() {

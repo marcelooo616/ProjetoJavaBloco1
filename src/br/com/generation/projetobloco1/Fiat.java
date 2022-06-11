@@ -9,7 +9,7 @@ public class Fiat {
 	static double[] litrokmfiat = { 10.1, 11.9, 13.1 };
 
 	static int opcao1 = 0;
-	static double Co2 = 7773;
+	static double Co2 = 157;
 	static double resultado;
 
 	public static void listamodelos() {
@@ -44,7 +44,7 @@ public class Fiat {
 		resultado = litrokmfiat[0] * Co2;
 
 		System.out.println();
-		System.out.print("A cada 10.1km rodados o Fiat Argo gasta " + litrokmfiat[0]);
+		System.out.println("A cada 10.1km rodados o Fiat Argo gasta " + litrokmfiat[0]);
 		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
 
 	}
