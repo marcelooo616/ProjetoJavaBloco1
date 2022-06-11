@@ -17,14 +17,14 @@ public class Volkswagen {
 		
 		System.out.println("===lista de modelos Fiat===");
 		System.out.println("1 - Volkswagen Jetta");
-    	System.out.println("2 - Gol");
-    	System.out.println("3 - Kombi");
-    	System.out.println("4 - T-Cross");
-    	System.out.println("5 - Polo");
-    	System.out.println("6 - Virtus");
-    	System.out.println("7 - Nivus");
-    	System.out.println("8 - Taos");
-    	System.out.println("9 - Saveiro");
+    	System.out.println("2 -  Gol");
+    	System.out.println("3 -  Kombi");
+    	System.out.println("4 -  T-Cross");
+    	System.out.println("5 -  Polo");
+    	System.out.println("6 -  Virtus");
+    	System.out.println("7 -  Nivus");
+    	System.out.println("8 -  Taos");
+    	System.out.println("9 -  Saveiro");
     	System.out.println("10 - Fox");
     	System.out.println("11 - Up!");
     	System.out.println("12 - Voyage");
@@ -37,12 +37,12 @@ public class Volkswagen {
     	System.out.println("19 - Brasilia");
     	System.out.println("20 - Gol Quadrado");
     	System.out.println("21 - Parati");
-    	System.out.println("22 -	Santana");
+    	System.out.println("22 - Santana");
     	System.out.println("23 - Santana Quantum");
     	System.out.println("24 - Apollo");
-    	System.out.println("25- CrosFox");
+    	System.out.println("25-  CrosFox");
     	System.out.println("26 - SpaceFox");
-    	System.out.println("27 -	Pointer");
+    	System.out.println("27 - Pointer");
     	System.out.println("28 - Passat Alemão");
     	System.out.println("29 - SP1/SP2");
     	System.out.println("30 - VW 1600 TL");
