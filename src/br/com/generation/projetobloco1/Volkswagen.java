@@ -7,7 +7,7 @@ public class Volkswagen {
 	static Scanner sc = new Scanner(System.in);
 	static String [] volkswagen = {"Civic","Odyssey","Fit","Volkswagen Jetta", "Gol","Kombi","T-cross","Polo","Virtus","Taos","Saveiro", "Fox", "Up!","Voyage","Tiguan","Golf","Novo Polo","Passat","Fusca"
 			,"Brasilia","Gol Quadrado", "Parati","Santana","Santana Quantum","Apollo","CrosFox","SpaceFox", "Pointer","Passat Alemão","SP1/SP2","VW 1600 TL","VW 1600","Karmann-Ghia/TC"};
-	static double [] litrokmvolkswagen = {10.6,9,12.3};
+	static double [] litrokmvolkswagen = {15.9,12,10.6,11.6,9.8,13.3,13.6,10.1,12.9,10.4,10.3,10.2,10.8,13.8,7.9,12.9,10.4,12.9,13.5,9.2,10.6,8.6,7.8,10.5,12.5,13.5,13.2,14.2,10.8,11.6,14.2,10.9};
 	
 	static int opcao, opcao1 ;
 	static double  Co2 = 0.157;
@@ -16,38 +16,38 @@ public class Volkswagen {
 	public static void listamodelos() {
 		
 		System.out.println("===lista de modelos Fiat===");
-		System.out.println("1 - Volkswagen Jetta");
-    	System.out.println("2 -  Gol");
-    	System.out.println("3 -  Kombi");
-    	System.out.println("4 -  T-Cross");
-    	System.out.println("5 -  Polo");
-    	System.out.println("6 -  Virtus");
-    	System.out.println("7 -  Nivus");
-    	System.out.println("8 -  Taos");
-    	System.out.println("9 -  Saveiro");
-    	System.out.println("10 - Fox");
-    	System.out.println("11 - Up!");
-    	System.out.println("12 - Voyage");
-    	System.out.println("13 - Tiguan");
-    	System.out.println("14 - Golf");
-    	System.out.println("15 - Novo Gol");
-    	System.out.println("16 - Novo Polo");
-    	System.out.println("17 - Passat");
-    	System.out.println("18 - Fusca");
-    	System.out.println("19 - Brasilia");
-    	System.out.println("20 - Gol Quadrado");
-    	System.out.println("21 - Parati");
-    	System.out.println("22 - Santana");
-    	System.out.println("23 - Santana Quantum");
-    	System.out.println("24 - Apollo");
-    	System.out.println("25-  CrosFox");
-    	System.out.println("26 - SpaceFox");
-    	System.out.println("27 - Pointer");
-    	System.out.println("28 - Passat Alemão");
-    	System.out.println("29 - SP1/SP2");
-    	System.out.println("30 - VW 1600 TL");
-    	System.out.println("31 - VW 1600 ");
-    	System.out.println("32 - Karmann-Ghia/TC");
+		System.out.println("1 -  Apollo");
+		System.out.println("2 -  Brasilia");
+		System.out.println("3-   CrosFox");
+		System.out.println("4 -  Fox");
+		System.out.println("5 -  Fusca");
+    	System.out.println("6 -  Gol");
+    	System.out.println("7 -  Gol Quadrado");
+    	System.out.println("8 -  Golf");
+    	System.out.println("9 -  Jetta");
+    	System.out.println("10 - Kombi");
+    	System.out.println("11 - Karmann-Ghia/TC");
+    	System.out.println("12 - Nivus");
+    	System.out.println("13 - Novo Gol");
+    	System.out.println("14 - Novo Polo");
+    	System.out.println("15 - Parati");
+    	System.out.println("16 - Passat");
+    	System.out.println("17 - Passat Alemão");
+    	System.out.println("18 - Polo");
+    	System.out.println("19 - Pointer");
+    	System.out.println("20 - Santana");
+    	System.out.println("21 - Santana Quantum");
+    	System.out.println("22 - Saveiro");
+    	System.out.println("23 - SpaceFox");
+    	System.out.println("24 - SP1/SP2");
+    	System.out.println("25 - Taos");
+    	System.out.println("26 - T-Cross");
+    	System.out.println("27 - Tiguan");
+    	System.out.println("28 - Up!");
+    	System.out.println("29 - Virtus");
+    	System.out.println("30 - Voyage");
+    	System.out.println("31 - VW 1600 TL");
+    	System.out.println("32 - VW 1600 ");
     	System.out.print("\nEscolha o modelo do carro: ");
 		
 		
