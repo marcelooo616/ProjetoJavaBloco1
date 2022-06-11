@@ -201,8 +201,140 @@ public class ProjetoBloco1 {
 
 				Renault.opcao3();
 			}
-
 		}
+		
+			//volkswagen Começa aqui.
+        	if (opcao == 9)  {
+        	
+        		Volkswagen.listamodelos();
+        		opcao1 = sc.nextInt();
+        	
+        	if (opcao1 == 1) {
+        		
+        		Volkswagen.opcao1();
+        	}
+        	
+        	else if (opcao1 == 2) {
+        		
+        		Volkswagen.opcao2();
+        	}
+        	else if (opcao1 == 3) {
+        		
+        		Volkswagen.opcao3();
+        	}
+        	else if (opcao1 == 4) {
+        		
+        		Volkswagen.opcao4();
+        	}
+        	else if (opcao1 == 5) {
+        		
+        		Volkswagen.opcao5();
+        	}
+        	else if (opcao1 == 6) {
+        		
+        		Volkswagen.opcao6();
+        	}
+        	else if (opcao1 == 7) {
+        		
+        		Volkswagen.opcao7();
+        	}
+        	else if (opcao1 == 8) {
+        		
+        		Volkswagen.opcao8();
+        	}
+        	else if (opcao1 == 9) {
+        		
+        		Volkswagen.opcao9();
+        	}
+        	else if (opcao1 == 10) {
+        		
+        		Volkswagen.opcao10();
+        	}
+        	else if (opcao1 == 11) {
+        		
+        		Volkswagen.opcao11();
+        	}
+        	else if (opcao1 == 12) {
+        		
+        		Volkswagen.opcao12();
+        	}
+        	else if (opcao1 == 13) {
+        		
+        		Volkswagen.opcao13();
+        	}
+        	else if (opcao1 == 14) {
+        		
+        		Volkswagen.opcao14();
+        	}
+        	else if (opcao1 == 15) {
+        		
+        		Volkswagen.opcao15();
+        	}
+        	else if (opcao1 == 16) {
+        		
+        		Volkswagen.opcao17();
+        	}
+        	else if (opcao1 == 18) {
+        		
+        		Volkswagen.opcao18();
+        	}
+        	else if (opcao1 == 19) {
+        		
+        		Volkswagen.opcao19();
+        	}
+        	else if (opcao1 == 20) {
+        		
+        		Volkswagen.opcao20();
+        	}
+        	else if (opcao1 == 21) {
+        		
+        		Volkswagen.opcao21();
+        	}
+        	else if (opcao1 == 23) {
+        		
+        		Volkswagen.opcao23();
+        	}
+        	else if (opcao1 == 24) {
+        		
+        		Volkswagen.opcao24();
+        	}
+        	else if (opcao1 == 25) {
+        		
+        		Volkswagen.opcao25();
+        	}
+        	else if (opcao1 == 26) {
+        		
+        		Volkswagen.opcao26();
+        	}
+        	else if (opcao1 == 27) {
+        		
+        		Volkswagen.opcao27();
+        	}
+        	else if (opcao1 == 28) {
+        		
+        		Volkswagen.opcao28();
+        	}
+        	else if (opcao1 == 29) {
+        		
+        		Volkswagen.opcao29();
+        	}
+        	else if (opcao1 == 30) {
+        		
+        		Volkswagen.opcao30();
+        	}
+        	else if (opcao1 == 31) {
+        		
+        		Volkswagen.opcao31();
+        	}
+        	else if (opcao1 == 32) {
+        		
+        		Volkswagen.opcao32();
+        	}
+        	
+        	//volkswagen acaba aqui.
+       }         	 
+        
+		
 
 		System.out.println();
 		Solucoes.listadesolucoes();
@@ -259,3 +391,4 @@ public class ProjetoBloco1 {
 
 	}
 }
+
