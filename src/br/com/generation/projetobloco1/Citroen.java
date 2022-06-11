@@ -38,7 +38,7 @@ public static void opcao2() {
 	resultado = litrokmcitroen[1] * Co2 ;
     
        System.out.println();
-	   System.out.println("A cada 9km rodados o Citroen Aircross gasta "+litrokmcitroen[0] );
+	   System.out.println("A cada 9km rodados o Citroen Aircross gasta "+litrokmcitroen[1] );
 	   System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
 }
 public static void opcao3() {
@@ -46,7 +46,7 @@ public static void opcao3() {
 	resultado = litrokmcitroen[2] * Co2 ;
     
        System.out.println();
-	   System.out.println("A cada 9km rodados o Citroen C3 gasta Litros "+litrokmcitroen[0] );
+	   System.out.println("A cada 9km rodados o Citroen C3 gasta Litros "+litrokmcitroen[2] );
 	   System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
 }
 

@@ -42,10 +42,10 @@ public class Honda {
 	
 	public static void opcao2() {
 		
-		resultado = litrokmhonda[2] * Co2 ;
+		resultado = litrokmhonda[1] * Co2 ;
         
         System.out.println();
-  	   System.out.println("A cada 9km rodados o Honda Odyssey gasta "+litrokmhonda[0] );
+  	   System.out.println("A cada 9km rodados o Honda Odyssey gasta "+litrokmhonda[1] );
   	   System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
 	}
 	public static void opcao3() {
@@ -53,7 +53,7 @@ public class Honda {
 		resultado = litrokmhonda[2] * Co2 ;
         
         System.out.println();
-  	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmhonda[0] );
+  	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmhonda[2] );
   	   System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
 		
 		
