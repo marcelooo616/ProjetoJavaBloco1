@@ -9,32 +9,36 @@ public class Fiat {
 	static double[] litrokmfiat = { 10.1, 11.9, 13.1 };
 
 	static int opcao1 = 0;
-	static double Co2 = 157;
+	static double Co2 = 0.157;
 	static double resultado;
 
-	public static void listamodelos() {
-
-		System.out.println("===lista de modelos Fiat===");
-		System.out.println("1 - Argo");
-		System.out.println("2 - Palio");
-		System.out.println("3 - Uno");
-		System.out.println();
-
-	}
+	
 
 	public static void escolhaopcao() {
 
-		System.out.print("Escolha a op��o: ");
+		System.out.print("Escolha a opção: ");
 		Scanner entrada = new Scanner(System.in);
 		opcao1 = sc.nextInt();
 
 	}
 
 	public static void lista() {
-		System.out.println("===lista de modelos Fiat===");
-		System.out.println("1 - Argo");
-		System.out.println("2 - Palio");
-		System.out.println("3 - Uno");
+
+		String menufiat[][] = { { "██████████████████████████████████████████████████████████" },
+				            { "░░░░░░░░░░░░░░░░░░░lista de modelos Fiat░░░░░░░░░░░░░░░░░░" },
+				            { "██████████████████████████████████████████████████████████" },
+				            { "██████████████████████| 1 - argo    |█████████████████████" },
+				            { "██████████████████████| 2 - Palio   |█████████████████████" },
+				            { "██████████████████████| 3 - Uno     |█████████████████████" },
+				            { "██████████████████████████████████████████████████████████" }};
+ 
+		for (int l = 0; l < menufiat.length; l++) {
+			for (int c = 0; c < menufiat[l].length; c++) {
+
+				System.out.print(menufiat[l][c]);
+			}
+			System.out.println();
+		}
 		System.out.print("\nEscolha o modelo do carro: ");
 
 	}
