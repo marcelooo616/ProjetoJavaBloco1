@@ -14,13 +14,13 @@ public class Citroen {
 	// criando os modulos
 	public static void listamodelos() {
 
-		String menufiat[][] = { { "██████████████████████████████████████████████████████████" },
-				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Fiat░░░░░░░░░░░░░░░░░░" },
-				{ "██████████████████████████████████████████████████████████" },
-				{ "██████████████████████| 1 - C4       |████████████████████" },
-				{ "██████████████████████| 2 - Aircross |████████████████████" },
-				{ "██████████████████████| 2 - C3       |████████████████████" },
-				{ "██████████████████████████████████████████████████████████" } };
+		String menufiat[][] = { { "████████████████████████████████████████████████████████████" },
+				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Citroen░░░░░░░░░░░░░░░░░" },
+				{ "████████████████████████████████████████████████████████████" },
+				{ "██████████████████████| 1 - C4       |██████████████████████" },
+				{ "██████████████████████| 2 - Aircross |██████████████████████" },
+				{ "██████████████████████| 2 - C3       |██████████████████████" },
+				{ "████████████████████████████████████████████████████████████" } };
 
 		for (int l = 0; l < menufiat.length; l++) {
 			for (int c = 0; c < menufiat[l].length; c++) {
@@ -30,7 +30,6 @@ public class Citroen {
 			System.out.println();
 		}
 
-		
 		System.out.print("\nEscolha o modelo do carro: ");
 
 	}
@@ -38,29 +37,61 @@ public class Citroen {
 	public static void opcao1() {
 
 		resultado = litrokmcitroen[0] * Co2;
+		String menuop[][] = {{"████████████████████████████████████████████████████████████" },
+				            { "████████████████████████████████████████████████████████████" },
+				            { "██A cada 7.8km rodados o Citroen C4 gasta 1L de gasolina████" },
+				            { "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						       "kg de carbono na atmosfera████" },
+				            { "████████████████████████████████████████████████████████████" },
+			             	{ "████████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 7.8km rodados o Citroen C4 " + litrokmcitroen[0]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
 
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 	public static void opcao2() {
 
 		resultado = litrokmcitroen[1] * Co2;
+		String menuop[][] = { { "████████████████████████████████████████████████████████████" },
+				{ "████████████████████████████████████████████████████████████" },
+				{ "██A cada 10.2km rodados o Citroen Aircross gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de carbono na atmosfera████" },
+				{ "████████████████████████████████████████████████████████████" },
+				{ "████████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 10.2km rodados o Citroen Aircross gasta " + litrokmcitroen[1]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 	public static void opcao3() {
 
 		resultado = litrokmcitroen[2] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 13.2km rodados o Citroen C3 gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de carbono na atmosfera████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 13.2km rodados o Citroen C3 gasta Litros " + litrokmcitroen[2]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 }
