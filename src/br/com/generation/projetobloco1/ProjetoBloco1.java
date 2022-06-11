@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ProjetoBloco1 {
 	static Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) throws InterruptedException{
+	public static void main(String[] args) throws InterruptedException {
 
 		// usando vetor, matriz e if/else
 
@@ -22,24 +22,23 @@ public class ProjetoBloco1 {
 		// String [] honda = {"Civic","Odyssey","Fit"};
 		// double [] litrokmhonda = {10.6,9,12.3};
 
-		int opcaofiat,opcao, opcao1;
+		int opcaofiat, opcao, opcao1;
 		double Co2 = 7773;
 		double resultado;
-		
-		String menu [][] = {{"██████████████████████████████████████████████████████████"},
-		                    {"██████████████████████Lista de opções█████████████████████"},
-		                    {"██████████████████████████████████████████████████████████"},
-		                    {"████████████████████| 1 - Fiat        |███████████████████"},
-		                    {"████████████████████| 2 - Honda       |███████████████████"},
-		                    {"████████████████████| 3 - Citroen     |███████████████████"},
-		                    {"████████████████████| 4 - Ford        |███████████████████"},
-		                    {"████████████████████| 5 - Peugeot     |███████████████████"},
-		                    {"████████████████████| 6 - Nissan      |███████████████████"},
-		                    {"████████████████████| 7 - Renault     |███████████████████"},
-		                    {"████████████████████| 8 - Chevrolet   |███████████████████"},
-		                    {"████████████████████| 9 - Volkswagen  |███████████████████"},
-		                    {"██████████████████████████████████████████████████████████"}};
-				
+
+		String menu[][] = { { "████████████████████████████████████████████████████████████" },
+				{ "██████████████████████Lista de opções███████████████████████" },
+				{ "████████████████████████████████████████████████████████████" },
+				{ "████████████████████| 1 - Fiat        |█████████████████████" },
+				{ "████████████████████| 2 - Honda       |█████████████████████" },
+				{ "████████████████████| 3 - Citroen     |█████████████████████" },
+				{ "████████████████████| 4 - Ford        |█████████████████████" },
+				{ "████████████████████| 5 - Peugeot     |█████████████████████" },
+				{ "████████████████████| 6 - Nissan      |█████████████████████" },
+				{ "████████████████████| 7 - Renault     |█████████████████████" },
+				{ "████████████████████| 8 - Chevrolet   |█████████████████████" },
+				{ "████████████████████| 9 - Volkswagen  |█████████████████████" },
+				{ "████████████████████████████████████████████████████████████" } };
 
 		for (int l = 0; l < menu.length; l++) {
 			for (int c = 0; c < menu[l].length; c++) {
@@ -48,27 +47,34 @@ public class ProjetoBloco1 {
 			}
 			System.out.println();
 		}
-		/*System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-		System.out.println("░░░░░░░░░░░░░░░░░░Lista de opções░░░░░░░░░░░░░░░░░      ");
-		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-		System.out.println("  ■■■■■■■| 1 - Fiat        |■■■■■■■");
-		System.out.println{"█████████████| 2 - Honda       |██████████████████████████"},
-		System.out.println{"█████████████| 3 - Citroen     |██████████████████████████"},
-		System.out.println{"█████████████| 4 - Ford        |██████████████████████████"},
-		System.out.println{"█████████████| 5 - Peugeot     |██████████████████████████"},
-		System.out.println{"█████████████| 6 - Nissan      |██████████████████████████"},
-		System.out.println{"█████████████| 7 - Renault     |██████████████████████████"},
-		System.out.println{"█████████████| 8 - Chevrolet   |██████████████████████████"},
-		System.out.println{"█████████████| 9 - Volkswagen  |██████████████████████████"}}
-		System.out.println{"■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-		// System.out.println("10 - Jeep ");
-		// System.out.println("1 - Toyota ");*/
+		/*
+		 * System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		 * System.out.println("░░░░░░░░░░░░░░░░░░Lista de opções░░░░░░░░░░░░░░░░░      "
+		 * ); System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		 * System.out.println("  ■■■■■■■| 1 - Fiat        |■■■■■■■"); System.out.
+		 * println{"█████████████| 2 - Honda       |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 3 - Citroen     |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 4 - Ford        |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 5 - Peugeot     |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 6 - Nissan      |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 7 - Renault     |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 8 - Chevrolet   |██████████████████████████"},
+		 * System.out.
+		 * println{"█████████████| 9 - Volkswagen  |██████████████████████████"}}
+		 * System.out.println{"■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■"); //
+		 * System.out.println("10 - Jeep "); // System.out.println("1 - Toyota ");
+		 */
 		System.out.println();
-		
+
 		System.out.print("Digite uma das opções Ex. '1,2,3...'   : ");
 		Thread.sleep(1000);
 		opcao = sc.nextInt();
-		
 
 		// resultado = litrokmfiat[0] * 1;
 		// System.out.print("Digite a opção ex. 1,2,3...: ");
@@ -83,7 +89,7 @@ public class ProjetoBloco1 {
 				Thread.sleep(500);
 
 				Fiat.opcao1();
-				
+
 			}
 
 			else if (opcao1 == 2) {
@@ -119,7 +125,7 @@ public class ProjetoBloco1 {
 		}
 
 		if (opcao == 3) {
-
+			Thread.sleep(500);
 			Citroen.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -139,7 +145,7 @@ public class ProjetoBloco1 {
 
 		}
 		if (opcao == 4) {
-
+			Thread.sleep(500);
 			Ford.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -158,7 +164,7 @@ public class ProjetoBloco1 {
 			}
 		}
 		if (opcao == 6) {
-
+			Thread.sleep(500);
 			Nissan.listademodelos();
 			opcao1 = sc.nextInt();
 
@@ -178,8 +184,8 @@ public class ProjetoBloco1 {
 		}
 
 		if (opcao == 7) {
-
-			Renault.lista();
+			Thread.sleep(500);
+			Renault.listamodelos();
 			opcao1 = sc.nextInt();
 
 			if (opcao1 == 1) {
@@ -195,6 +201,8 @@ public class ProjetoBloco1 {
 
 				Renault.opcao3();
 			}
+		}
+		
 			//volkswagen Começa aqui.
         	if (opcao == 9)  {
         	
@@ -326,7 +334,7 @@ public class ProjetoBloco1 {
         	//volkswagen acaba aqui.
        }         	 
         
-		}
+		
 
 		System.out.println();
 		Solucoes.listadesolucoes();
@@ -372,8 +380,8 @@ public class ProjetoBloco1 {
 		 * }
 		 */
 
-		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 
 		System.out.println();
 

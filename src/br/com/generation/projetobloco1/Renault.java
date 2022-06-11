@@ -17,7 +17,7 @@ public class Renault {
 	public static void listamodelos() {
 
 		String menufiat[][] = { { "██████████████████████████████████████████████████████████" },
-				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Fiat░░░░░░░░░░░░░░░░░░" },
+				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Renault░░░░░░░░░░░░░░░░░░" },
 				{ "██████████████████████████████████████████████████████████" },
 				{ "██████████████████████| 1 - Kwid    |█████████████████████" },
 				{ "██████████████████████| 2 - Sandero |█████████████████████" },
@@ -43,41 +43,66 @@ public class Renault {
 		opcao1 = sc.nextInt();
 	}
 
-	public static void lista() {
-
-		System.out.println("===lista de modelos Fiat===");
-		System.out.println("1 - Kwid");
-		System.out.println("2 - Sandero");
-		System.out.println("3 - Duster");
-		System.out.print("\nEscolha o modelo do carro: ");
-
-	}
+	
 
 	public static void opcao1() {
 
 		resultado = litrokmrenault[0] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 14.9km rodados o Renault Kwid gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de carbono na atmosfera██" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 14.9km rodados, o Renault Kwid gasta" + litrokmrenault[0]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 
 	}
 
 	public static void opcao2() {
 		resultado = litrokmrenault[1] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 12.5km rodados o Renault Sandero gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de carbono na atmosfera██" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 12.5km rodados, o Renault Sandero gasta" + litrokmrenault[1]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 
 	}
 
 	public static void opcao3() {
 		resultado = litrokmrenault[2] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 11.1km rodados o Renault Duster gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de carbono na atmosfera██" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 11.1km rodados, o Renault Duster gasta" + litrokmrenault[2]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 
 	}
 

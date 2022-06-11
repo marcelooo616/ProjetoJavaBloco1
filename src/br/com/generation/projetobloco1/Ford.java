@@ -18,7 +18,7 @@ public class Ford {
 	public static void listamodelos() {
 
 		String menufiat[][] = { { "██████████████████████████████████████████████████████████" },
-				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Fiat░░░░░░░░░░░░░░░░░░" },
+				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Ford░░░░░░░░░░░░░░░░░░" },
 				{ "██████████████████████████████████████████████████████████" },
 				{ "██████████████████████| 1 - Ka       |████████████████████" },
 				{ "██████████████████████| 2 - Focus    |████████████████████" },
@@ -41,29 +41,61 @@ public class Ford {
 	public static void opcao1() {
 
 		resultado = litrokmford[0] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 13.4km rodados o Ford Ka gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de gas carbonico na atmosfera██" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 13.4km rodados o Ford Ka gasta " + litrokmford[0]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
 
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 	public static void opcao2() {
 
 		resultado = litrokmford[1] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 8.1km rodados o Ford Focus gasta 1L de gasolina███" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de gas carbonico na atmosfera" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 8.1km rodados o Ford Focus gasta " + litrokmford[1]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 	public static void opcao3() {
 
 		resultado = litrokmford[2] * Co2;
+		String menuop[][] = { { "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██A cada 10.3km rodados o Ford Ecosport gasta 1L de gasolina██" },
+				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
+						"kg de gas carbonico na atmosfera" },
+				{ "██████████████████████████████████████████████████████████" },
+				{ "██████████████████████████████████████████████████████████" } };
 
-		System.out.println();
-		System.out.println("A cada 10.3km rodados o Ford Ecosport gasta " + litrokmford[2]);
-		System.out.println("Jogando " + new DecimalFormat(".##").format(resultado) + "kg de carbono na atmosfera");
+		for (int l = 0; l < menuop.length; l++) {
+			for (int c = 0; c < menuop[l].length; c++) {
+
+				System.out.print(menuop[l][c]);
+			}
+			System.out.println();
+		}
 	}
 
 }
