@@ -163,6 +163,36 @@ public class ProjetoBloco1 {
 
 			}
 		}
+		
+		if (opcao == 5) {
+			Thread.sleep(500);
+			Peugeot.lista();
+			opcao1 = sc.nextInt();
+
+			if (opcao1 == 5) {
+
+				Peugeot.opcao1();
+
+			} else if (opcao1 == 2) {
+
+				Peugeot.opcao2();
+
+			} else if (opcao1 == 3) {
+
+				Peugeot.opcao3();
+
+			}
+			else if (opcao1 == 4) {
+
+				Peugeot.opcao4();
+
+			}
+			else if (opcao1 == 5) {
+
+				Peugeot.opcao5();
+
+			}
+		}
 		if (opcao == 6) {
 			Thread.sleep(500);
 			Nissan.listademodelos();
