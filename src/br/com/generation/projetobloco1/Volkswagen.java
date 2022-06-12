@@ -15,7 +15,7 @@ public class Volkswagen {
 	static double resultado;
 	
 	public static void listamodelos() {
-<<<<<<< HEAD
+
 		String menuvolkswagen[][] = { { "██████████████████████████████████████████████████████████" },
 				{ "░░░░░░░░░░░░░░░░░░░lista de modelos Volkswagens░░░░░░░░░░░░░░░░░░" },
 				{ "██████████████████████████████████████████████████████████" },
@@ -65,46 +65,7 @@ public class Volkswagen {
 			}
 			System.out.println();
 		}
-		System.out.print("\nEscolha o modelo do carro: ");
-=======
 		
-		System.out.println("===lista de modelos Fiat===");
-		System.out.println("1 -  Apollo");
-		System.out.println("2 -  Brasilia");
-		System.out.println("3-   CrosFox");
-		System.out.println("4 -  Fox");
-		System.out.println("5 -  Fusca");
-    	System.out.println("6 -  Gol");
-    	System.out.println("7 -  Gol Quadrado");
-    	System.out.println("8 -  Golf");
-    	System.out.println("9 -  Jetta");
-    	System.out.println("10 - Kombi");
-    	System.out.println("11 - Karmann-Ghia/TC");
-    	System.out.println("12 - Nivus");
-    	System.out.println("13 - Novo Gol");
-    	System.out.println("14 - Novo Polo");
-    	System.out.println("15 - Parati");
-    	System.out.println("16 - Passat");
-    	System.out.println("17 - Passat AlemÃ£o");
-    	System.out.println("18 - Polo");
-    	System.out.println("19 - Pointer");
-    	System.out.println("20 - Santana");
-    	System.out.println("21 - Santana Quantum");
-    	System.out.println("22 - Saveiro");
-    	System.out.println("23 - SpaceFox");
-    	System.out.println("24 - SP1/SP2");
-    	System.out.println("25 - Taos");
-    	System.out.println("26 - T-Cross");
-    	System.out.println("27 - Tiguan");
-    	System.out.println("28 - Up!");
-    	System.out.println("29 - Virtus");
-    	System.out.println("30 - Voyage");
-    	System.out.println("31 - VW 1600 TL");
-    	System.out.println("32 - VW 1600 ");
-    	System.out.print("\nEscolha o modelo do carro: ");
-		
-		
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
 	}
 		
 	
@@ -124,11 +85,10 @@ public class Volkswagen {
 		resultado = litrokmvolkswagen[0] * Co2;
 		String menuop[][] = { { "████████████████████████████████████████████████████████████" },
 				{ "████████████████████████████████████████████████████████████" },
-<<<<<<< HEAD
+
 				{ "██A cada 15.9km rodados o Apollo gasta 1L de gasolina████" },
-=======
+
 				{ "██A cada 15.9km rodados o Apolo gasta 1L de gasolina████" },
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
 				{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
 						"kg de gás carbonico na atmosfera" },
 				{ "████████████████████████████████████████████████████████████" },
@@ -326,7 +286,7 @@ public class Volkswagen {
 }
 	public static void opcao11() {
 	
-<<<<<<< HEAD
+
 	resultado = litrokmvolkswagen[11] * Co2 ;
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -474,82 +434,13 @@ public class Volkswagen {
 			}
 			System.out.println();
 		}
-=======
-	resultado = litrokmvolkswagen[10] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao12() {
-	
-	resultado = litrokmvolkswagen[11] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}	public static void opcao13() {
-	
-	resultado = litrokmvolkswagen[12] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao14() {
-	
-	resultado = litrokmvolkswagen[13] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao15() {
-	
-	resultado = litrokmvolkswagen[14] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao16() {
-	
-	resultado = litrokmvolkswagen[15] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao17() {
-	
-	resultado = litrokmvolkswagen[16] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao18() {
-	
-	resultado = litrokmvolkswagen[17] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-	public static void opcao19() {
-		
-		resultado = litrokmvolkswagen[18] * Co2 ;
-	    
-	    System.out.println();
-		   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-		   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
+
 	}
 	public static void opcao19() {
 	
 	resultado = litrokmvolkswagen[19] * Co2 ;
     
-<<<<<<< HEAD
+
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
 			{ "██A cada 9.2km rodados o Volkswagen Pointer gasta 1L de gasolina██" },
@@ -603,34 +494,14 @@ public static void opcao21() {
 		}
 		System.out.println();
 	}
-=======
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao21() {
+
 	
-	resultado = litrokmvolkswagen[20] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao22() {
-	
-	resultado = litrokmvolkswagen[21] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
-	
-	}	
+}	
 
 public static void opcao22() {
 	
 	resultado = litrokmvolkswagen[22] * Co2 ;
-<<<<<<< HEAD
+
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
 			{ "██A cada 7.8km rodados o Volkswagen Saveiro gasta 1L de gasolina██" },
@@ -704,42 +575,13 @@ public static void opcao25() {
 		}
 		System.out.println();
 	}
-=======
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao24() {
-	
-	resultado = litrokmvolkswagen[23] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao25() {
-	
-	resultado = litrokmvolkswagen[24] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao26() {
-	
-	resultado = litrokmvolkswagen[25] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
+
 	
 	}	
 public static void opcao26() {
 	
 	resultado = litrokmvolkswagen[26] * Co2 ;
-<<<<<<< HEAD
+
 	 
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -756,17 +598,13 @@ public static void opcao26() {
 		}
 		System.out.println();
 	}
-=======
     
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
+   
 }
 public static void opcao27() {
 	
 	resultado = litrokmvolkswagen[27] * Co2 ;
-<<<<<<< HEAD
+
 	 
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -783,12 +621,7 @@ public static void opcao27() {
 		}
 		System.out.println();
 	}
-=======
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
+
 	
 	}
 public static void opcao28() {
@@ -796,7 +629,7 @@ public static void opcao28() {
 	resultado = litrokmvolkswagen[28] * Co2;
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
-			{ "██A cada 10.8km rodados o Volkswagen  gasta 1L de gasolina██" },
+			{ "██A cada 10.8km rodados o Volkswagen Up! gasta 1L de gasolina██" },
 			{ "██Jogando o equivalente a ", "" + new DecimalFormat(".##").format(resultado),
 					"kg de gás carbônico na atmosfera" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -812,7 +645,7 @@ public static void opcao28() {
 }
 public static void opcao29() {
 	
-<<<<<<< HEAD
+
 	resultado = litrokmvolkswagen[28] * Co2;
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -829,19 +662,11 @@ public static void opcao29() {
 		}
 		System.out.println();
 	}
-=======
-	resultado = litrokmvolkswagen[28] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
+
 }
  
 public static void opcao30() {
-	
-<<<<<<< HEAD
-	 
+		 
 	resultado = litrokmvolkswagen[29] * Co2;
 	String menuop[][] = { { "██████████████████████████████████████████████████████████" },
 			{ "██████████████████████████████████████████████████████████" },
@@ -858,7 +683,7 @@ public static void opcao30() {
 		}
 		System.out.println();
 	}
-	}	
+}	
 public static void opcao31() {
 	
 	resultado = litrokmvolkswagen[30] * Co2;
@@ -896,31 +721,10 @@ public static void opcao32() {
 		}
 		System.out.println();
 	}
-=======
-	resultado = litrokmvolkswagen[29] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
+
 	
-	}	
-public static void opcao31() {
-	
-	resultado = litrokmvolkswagen[30] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-}
-public static void opcao32() {
-	
-	resultado = litrokmvolkswagen[31] * Co2 ;
-    
-    System.out.println();
-	   System.out.println("A cada 12.3km rodados o Honda fit gasta "+litrokmvolkswagen[0] );
-	   System.out.println("Jogando "+resultado+ "kg de gÃ¡s carbÃ´nico na atmosfera");
-	
->>>>>>> ec66660cd0e5464b45c2a67db19c6947373ff033
 	}	
 
-}
+}	
+
+
