@@ -253,11 +253,11 @@ public class ProjetoBloco1 {
 			}
 			else if (opcao1 == 4) {
 
-				Chevrolet.opcao4();
+				Chevrolet.opcao3();
 			}
 			else if (opcao1 == 5) {
 
-				Chevrolet.opcao5();
+				Chevrolet.opcao3();
 			}
 		}
 		
@@ -392,8 +392,7 @@ public class ProjetoBloco1 {
         	}*/
         	
         	//volkswagen acaba aqui.
-       }    
-        	
+       }         	 
         
 		
 
@@ -441,8 +440,8 @@ public class ProjetoBloco1 {
 		 * }
 		 */
 
-		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 
 		System.out.println();
 
