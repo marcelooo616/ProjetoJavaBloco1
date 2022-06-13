@@ -33,6 +33,7 @@ public class ProjetoBloco1 {
 				            { "██████████████████████████████████████████████████████████████████████████████████" } };
 
 		for (int l = 0; l < menu.length; l++) {
+		//	Thread.sleep(200);
 			for (int c = 0; c < menu[l].length; c++) {
 
 				System.out.print(menu[l][c]);
@@ -41,14 +42,23 @@ public class ProjetoBloco1 {
 		}
 		
 		System.out.println();
-
 		System.out.print("Digite uma das opções Ex. '1,2,3...'   : ");
 		
 		opcao = sc.nextInt();
+		
+		while(opcao < 1 || opcao > 11) {
+			System.out.println("opção invalida");
+			
+			System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+			opcao = sc.nextInt();
+		}
+		
 
 		
 
 		if (opcao == 1) {
+			
+			Carregamento.carregando();
 
 			Fiat.lista();
 			opcao1 = sc.nextInt();
@@ -74,7 +84,7 @@ public class ProjetoBloco1 {
 		}
 
 		if (opcao == 2) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Honda.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -94,7 +104,7 @@ public class ProjetoBloco1 {
 		}
 
 		if (opcao == 3) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Citroen.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -114,7 +124,7 @@ public class ProjetoBloco1 {
 
 		}
 		if (opcao == 4) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Ford.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -134,7 +144,7 @@ public class ProjetoBloco1 {
 		}
 		
 		if (opcao == 5) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Peugeot.lista();
 			opcao1 = sc.nextInt();
 
@@ -163,7 +173,7 @@ public class ProjetoBloco1 {
 			}
 		}
 		if (opcao == 6) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Nissan.listademodelos();
 			opcao1 = sc.nextInt();
 
@@ -183,7 +193,7 @@ public class ProjetoBloco1 {
 		}
 
 		if (opcao == 7) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Renault.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -203,7 +213,7 @@ public class ProjetoBloco1 {
 		}
 		
 		if (opcao == 8) {
-			Thread.sleep(500);
+			Carregamento.carregando();
 			Chevrolet.listamodelos();
 			opcao1 = sc.nextInt();
 
@@ -234,7 +244,7 @@ public class ProjetoBloco1 {
 		
 			//volkswagen Começa aqui.
         	if (opcao == 9)  {
-        	
+        		Carregamento.carregando();
         		Volkswagen.listamodelos();
         		opcao1 = sc.nextInt();
         	
@@ -363,7 +373,7 @@ public class ProjetoBloco1 {
         	//volkswagen acaba aqui.
        } 
         	if (opcao == 10) {
-    			Thread.sleep(500);
+        		Carregamento.carregando();
     			Toyota.lista();
     			opcao1 = sc.nextInt();
 
@@ -391,7 +401,7 @@ public class ProjetoBloco1 {
     		}
         
         	if (opcao == 11) {
-    			Thread.sleep(500);
+        		Carregamento.carregando();
     			Hyundai.listamodelos();
     			opcao1 = sc.nextInt();
 
