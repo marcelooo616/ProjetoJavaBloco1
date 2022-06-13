@@ -422,46 +422,7 @@ public class ProjetoBloco1 {
 		System.out.println();
 		Solucoes.listadesolucoes();
 
-		/*
-		 * 
-		 * 
-		 * 
-		 * else if (opcao == 3) {
-		 * 
-		 * System.out.println("===lista de modelos Citroen===");
-		 * System.out.println("1 - C4"); System.out.println("2 - Aircross");
-		 * System.out.println("3 - C3"); System.out.println();
-		 * 
-		 * 
-		 * System.out.print("Escolha a opção: "); Scanner sc = new Scanner(System.in);
-		 * opcao = sc.nextInt();
-		 * 
-		 * 
-		 * if (opcao == 1 ) {
-		 * 
-		 * resultado = litrokmcitroen[2] * Co2 ;
-		 * 
-		 * System.out.println();
-		 * System.out.println("A cada 10.6km rodados o Citroen C4 gasta "+litrokmfiat[0]
-		 * ); System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
-		 * 
-		 * }
-		 * 
-		 * else if (opcao == 2) { resultado = litrokmcitroen[2] * Co2 ;
-		 * 
-		 * System.out.println();
-		 * System.out.println("A cada 9km rodados o Citroen Aircross gasta "+litrokmfiat
-		 * [0] ); System.out.println("Jogando "+resultado+
-		 * "kg de carbono na atmosfera");
-		 * 
-		 * } else if (opcao == 3) { resultado = litrokmcitroen[2] * Co2 ;
-		 * 
-		 * System.out.println();
-		 * System.out.println("A cada 12.3km rodados o Citroen C3 gasta "+litrokmfiat[0]
-		 * ); System.out.println("Jogando "+resultado+ "kg de carbono na atmosfera");
-		 * 
-		 * }
-		 */
+		
 
 		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
@@ -470,7 +431,7 @@ public class ProjetoBloco1 {
 
 		Tela.Telabase();
 
-		// System.out.println(resultado2);
+		
 
 	}
 }
