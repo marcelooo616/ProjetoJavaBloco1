@@ -21,7 +21,7 @@ public class Peugeot {
 
 	}
 
-	public static void lista() {
+	public static void listamodelos() {
 		
 		String menufiat[][] = { { "██████████████████████████████████████████████████████████████████████████████████" },
                                	{ "░░░░░░░░░░░░░░░░░░░lista de modelos Peugeot░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" },
