@@ -7,16 +7,16 @@ public class Solucoes {
 		String titulo = "-Co2", nome = "marcelo";
 		String[][] meme = {
 				{ "██████████████████████████████████████████████████████████████████████████████████"},
-				{ "█████!!O que voce fazer para compensar toda essa emissão██████████████████████████"},		
-				{ "██████████████████████████████████████████████████████████████████████████████████"},				      
-				{ "█████- Deixar os produtos de origem animal              ██████████████████████████"},
-				{ "█████ de fora do cardapio por um dia!!                  ██████████████████████████"},
-				{ "█████- Utilizar tansporte público                       ██████████████████████████"},
-				{ "█████- utilizar bicicletas para viagens pequenas        ██████████████████████████"},
-				{ "█████- Evitar embalagens plasticas                      ██████████████████████████"},		
+				{ "█████!!O que voce fazer para compensar toda essa emissão██████████       █████████"},		
+				{ "██████████████████████████████████████████████████████████████████       █████████"},				      
+				{ "█████- Deixar os produtos de origem animal              ██████████       █████████"},
+				{ "█████ de fora do cardapio por um dia!!                  ██████████       █████████"},
+				{ "█████- Utilizar tansporte público                       ██████████       █████████"},
+				{ "█████- utilizar bicicletas para viagens pequenas        ██████████       █████████"},
+				{ "█████- Evitar embalagens plasticas                      ██████████       █████████"},		
 				{ "█████- Fazer o plantio de arvores                       ██████████████████████████"},
-				{ "█████- Incentivo a veículos menos poluentes             ██████████████████████████"},
-		        { "█████- Utilize ecobags                                  ██████████████████████████"},
+				{ "█████- Incentivo a veículos menos poluentes             ██████████       █████████"},
+		        { "█████- Utilize ecobags                                  ██████████       █████████"},
 				{ "██████████████████████████████████████████████████████████████████████████████████"}};
 
 		for (int l = 0; l < meme.length; l++) {

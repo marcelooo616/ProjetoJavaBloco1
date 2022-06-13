@@ -63,6 +63,13 @@ public class ProjetoBloco1 {
 			Fiat.lista();
 			opcao1 = sc.nextInt();
 			
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
+			
 
 			if (opcao1 == 1) {
 				
@@ -87,6 +94,12 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Honda.listamodelos();
 			opcao1 = sc.nextInt();
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("Opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -107,6 +120,12 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Citroen.listamodelos();
 			opcao1 = sc.nextInt();
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -127,6 +146,12 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Ford.listamodelos();
 			opcao1 = sc.nextInt();
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -147,6 +172,12 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Peugeot.lista();
 			opcao1 = sc.nextInt();
+			while(opcao1 < 1 || opcao1 > 5) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -176,6 +207,13 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Nissan.listademodelos();
 			opcao1 = sc.nextInt();
+			
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -196,6 +234,13 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Renault.listamodelos();
 			opcao1 = sc.nextInt();
+			
+			while(opcao1 < 1 || opcao1 > 3) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -216,6 +261,13 @@ public class ProjetoBloco1 {
 			Carregamento.carregando();
 			Chevrolet.listamodelos();
 			opcao1 = sc.nextInt();
+			
+			while(opcao1 < 1 || opcao1 > 5) {
+				System.out.println("opção invalida");
+				
+				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+				opcao1 = sc.nextInt();
+			}
 
 			if (opcao1 == 1) {
 
@@ -247,6 +299,13 @@ public class ProjetoBloco1 {
         		Carregamento.carregando();
         		Volkswagen.listamodelos();
         		opcao1 = sc.nextInt();
+        		
+        		while(opcao1 < 1 || opcao1 > 15) {
+    				System.out.println("opção invalida");
+    				
+    				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+    				opcao1 = sc.nextInt();
+    			}
         	
         	if (opcao1 == 1) {
         		
@@ -317,6 +376,13 @@ public class ProjetoBloco1 {
         		Carregamento.carregando();
     			Toyota.lista();
     			opcao1 = sc.nextInt();
+    			
+    			while(opcao1 < 1 || opcao1 > 5) {
+    				System.out.println("opção invalida");
+    				
+    				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+    				opcao1 = sc.nextInt();
+    			}
 
     			if (opcao1 == 1) {
 
@@ -345,6 +411,13 @@ public class ProjetoBloco1 {
         		Carregamento.carregando();
     			Hyundai.listamodelos();
     			opcao1 = sc.nextInt();
+    			
+    			while(opcao1 < 1 || opcao1 > 5) {
+    				System.out.println("opção invalida");
+    				
+    				System.out.println("Digite uma das opções Ex. '1,2,3...'   :");
+    				opcao1 = sc.nextInt();
+    			}
 
     			if (opcao1 == 1) {
 
