@@ -8,7 +8,7 @@ public class Citroen {
 	static double[] litrokmcitroen = { 7.8, 10.2, 13.2 };
 	// declarando as opções
 	static int opcao, opcao1;
-	static double Co2 = 0.157;
+	static double Co2 = 2.3;
 	static double resultado;
 
 	// criando os modulos

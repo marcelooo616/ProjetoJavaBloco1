@@ -11,7 +11,7 @@ public class Volkswagen {
 	static double [] litrokmvolkswagen = {15.9,12,10.6,11.6,9.8,13.3,13.6,10.1,12.9,10.4,10.3,10.2,10.8,13.8,7.9,12.9,10.4,12.9,13.5,9.2,10.6,8.6,7.8,10.5,12.5,13.5,13.2,14.2,10.8,11.6,14.2,10.9};
 	
 	static int opcao, opcao1 ;
-	static double  Co2 = 0.157;
+	static double  Co2 = 2.3;
 	static double resultado;
 	
 	public static void listamodelos() {

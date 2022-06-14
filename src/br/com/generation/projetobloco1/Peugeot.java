@@ -10,7 +10,7 @@ public class Peugeot {
 	static double[] litrokmpeugeot = { 9.4, 10.6, 15.1, 10.0, 9.2 };
 
 	static int opcao1 = 0;
-	static double Co2 = 0.157;
+	static double Co2 = 2.3;
 	static double resultado;
 	
 	public static void escolhaopcao() {

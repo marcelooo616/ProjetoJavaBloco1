@@ -9,7 +9,7 @@ public class Fiat {
 	static double[] litrokmfiat = { 10.1, 11.9, 13.1 };
 
 	static int opcao1 = 0;
-	static double Co2 = 0.157;
+	static double Co2 = 2.3;
 	static double resultado;
 	
 	

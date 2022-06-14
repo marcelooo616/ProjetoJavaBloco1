@@ -11,7 +11,7 @@ public class Chevrolet {
 	static double [] litrokmchevrolet = {13.7,11.2,11.2,11.9,12.6};
     //declarando as opÃ§Ãµes
 	static int opcao, opcao1 ;
-	static double  Co2 = 0.157;
+	static double  Co2 = 2.3;
 	static double resultado;
 
 
